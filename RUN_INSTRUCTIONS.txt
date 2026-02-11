@@ -1,0 +1,17 @@
+HOW TO RUN PROJECT
+
+1) Open Terminal in "tech" folder
+
+2) Create & activate venv
+python -m venv .venv
+.venv\Scripts\activate
+
+3) Install dependencies
+pip install -r backend\requirements.txt
+
+4) Start backend
+cd backend
+uvicorn app:app --host 127.0.0.1 --port 8001
+
+5) Run frontend
+Open frontend/index.html using Live Server (VS Code)
